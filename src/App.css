@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+
+.rcw-response .rcw-message-text{
+  background-color: #33cce6 !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
