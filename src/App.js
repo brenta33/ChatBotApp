@@ -8,9 +8,9 @@ import { useEffect } from 'react';
 function App() {
 
 
-
   const id = Math.random();
 
+  //message handler
   const handleNewUserMessage = (message) => {
 
     axios.post("https://chatbot-service-9775.twil.io/chat", {
@@ -21,19 +21,10 @@ function App() {
         addResponseMessage(say.text);
       })
     })
-
-
-
   };
-
-
-
   useEffect(() => {
     addResponseMessage("Welcome!");
   }, []);
-
-
-
 
 
   return (
