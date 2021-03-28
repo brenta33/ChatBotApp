@@ -19,12 +19,11 @@ function App() {
           addResponseMessage(say.text);
         });
       });
-  };
+  }; //
 
   useEffect(() => {
     addResponseMessage("Welcome!");
   }, []);
-  //ddpcvsdlcps
 
   return (
     <div className="App">
