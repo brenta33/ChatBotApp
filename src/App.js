@@ -19,7 +19,7 @@ function App() {
           addResponseMessage(say.text);
         });
       });
-  };
+  }; //
 
   useEffect(() => {
     addResponseMessage("Welcome!");
